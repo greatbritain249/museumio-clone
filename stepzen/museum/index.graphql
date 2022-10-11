@@ -1,0 +1,35 @@
+type Museum {
+  MuseumName: String
+  rating: Float
+  galleryId: String
+  Address: String
+  City: String 
+  Country: String 
+  Lat: Float
+  Lng: Float
+  imgUrl: String
+  webUrl: String
+  galleryItems: GalleryItem
+      @materializer(
+      query: "getGalleryById"
+      arguments: [{ name: "id", field: "galleryId"}]
+    )
+}
+
+type MuseumList {
+  name: ID
+  value: Museum
+}
+
+type Query {
+  getMuseumById(id: ID): Museum
+    @rest(
+      endpoint: "https://musuemio-clone-default-rtdb.firebaseio.com/musuems/$id.json"
+    )
+
+  getMuseums: [MuseumList]
+    @rest(
+      endpoint: "https://musuemio-clone-default-rtdb.firebaseio.com/musuems.json"
+      transforms: [{ pathpattern: [], editor: "objectToArray"}]
+    )
+}

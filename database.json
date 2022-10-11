@@ -1,0 +1,114 @@
+{
+  "galleries": {
+    "1ZGdB6DGJ4h7269080": {
+      "galleryImages": ["https://theromanguy.com/wp-content/uploads/Apollo-Daphne-Featured-940.jpg",
+                        "https://visit-borghese-gallery.com/wp-content/uploads/2019/06/IMG_2634-4-min.jpg",
+                        "https://visit-borghese-gallery.com/wp-content/uploads/2019/06/IMG_2849-min.jpg",
+                        "https://visit-borghese-gallery.com/wp-content/uploads/2019/06/IMG_2867-1-min.jpg",
+                        "https://visit-borghese-gallery.com/wp-content/uploads/2019/06/Paulina_Bonaparte.jpg",
+                        "https://visit-borghese-gallery.com/wp-content/uploads/2019/06/IMG_2844-1-min.jpg"]
+    },
+    "-N6rQgCkbLPB1xElUchT": {
+      "galleryImages": []
+    },
+    "-N6rSJ4xI3_Cq7u58Wh_": {
+      "galleryImages": []
+    },
+    "-N6rSZB4AoMAwrDnm2jF": {
+      "galleryImages": []
+    },
+    "-N6rTRzW_JrkHQMdt5QA": {
+      "galleryImages": []
+    }
+  },
+  "events": {
+    "-N6rOmxa7dfgvOOTpZZSllL": {
+      "eventId": "1ZGdB6DGJ4h7269080",
+      "exhibition": "1Z881F5V0397269080",
+      "startDate": 5.0,
+      "endDate": "1Z881F5V0397269080"
+    },
+    "-N6rQgCkbLPB1xElUchT": {
+      "exhibition": "1Z881F5V0397269080",
+      "startDate": 5.0,
+      "endDate": "1Z881F5V0397269080"
+    },
+    "-N6rSJ4xI3_Cq7u58Wh_": {
+      "exhibition": "1Z881F5V0397269080",
+      "startDate": 5.0,
+      "endDate": "1Z881F5V0397269080"
+    },
+    "-N6rSZB4AoMAwrDnm2jF": {
+      "exhibition": "1Z881F5V0397269080",
+      "startDate": 5.0,
+      "endDate": "1Z881F5V0397269080"
+    },
+    "-N6rTRzW_JrkHQMdt5QA": {
+      "exhibition": "1Z881F5V0397269080",
+      "startDate": 5.0,
+      "endDate": "1Z881F5V0397269080"
+    }
+  },
+  "musuems": {
+    "-N6rOvLXK2t39x-Bp0UP": {
+      "MuseumName": "Galleria Borghese",
+      "rating": 5.0,
+      "galleryId": "1ZGdB6DGJ4h7269080",
+      "Address": "Piazzale Scipione Borghese, 5.",
+      "City": "Rome",
+      "Country": "Italy",
+      "Lat": 41.9141203,
+      "Lng": 12.492061,
+      "webUrl": "",
+      "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Rape_of_Proserpina.jpg"
+    },
+    "-Ngtrytdfgf54-Bp1ER": {
+      "MuseumName": "Capitoline Museums",
+      "rating": 4.8,
+      "galleryId": "1Z885678fgchvb0",
+      "Address": "Piazza del Campidoglio, 1, 00186 Roma RM, Italy",
+      "City": "Rome",
+      "Country": "Italy",
+      "Lat": 37.7749295,
+      "Lng": -122.4194155,
+      "webUrl": "",
+      "imgUrl": "https://img.theculturetrip.com/1440x/smart/wp-content/uploads/2016/08/museicapitolini05.jpg"
+    },
+    "-Ngtrjbreiff54-Pofh3s": {
+      "MuseumName": "Pantheon",
+      "rating": 4.9,
+      "galleryId": "1Z881F5V0397269080",
+      "Address": "Piazza della Rotonda, 00186 Roma RM, Italy",
+      "City": "Rome",
+      "Country": "Italy",
+      "Lat": 37.7749295,
+      "Lng": -122.4194155,
+      "webUrl": "",
+      "imgUrl": "https://cms.througheternity.com/upload/CONF83/20210922/pantheon_interior_tombs_2_1_.jpeg"
+    },
+    "-Ng4gh4jh9hf54-P45wef": {
+      "MuseumName": "Doria Pamphili Gallery",
+      "rating": 4.7,
+      "galleryId": "1Z881F5V0397269080",
+      "Address": "Via del Corso, 305, 00186 Roma RM, Italy",
+      "City": "Rome",
+      "Country": "Italy",
+      "Lat": 37.7749295,
+      "Lng": -122.4194155,
+      "webUrl": "",
+      "imgUrl": "https://rome.us/wp-content/uploads/Galleria.Doria_.Pamphilj.jpg"
+    },
+    "-Nfhb5342dfh54-P45wef": {
+      "MuseumName": "Palazzo Colonna",
+      "rating": 4.4,
+      "galleryId": "1Z881F5V0397269080",
+      "Address": "Via della Pilotta, 17, 00187 Roma RM, Italy",
+      "City": "Rome",
+      "Country": "Italy",
+      "Lat": 37.7749295,
+      "Lng": -122.4194155,
+      "webUrl": "",
+      "imgUrl": "https://www.galleriacolonna.it/wp-content/uploads/2015/08/GalleriaColonna_01.jpg"
+    }
+  }
+}

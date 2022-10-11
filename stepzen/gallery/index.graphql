@@ -1,0 +1,22 @@
+type GalleryItem {
+    gallery_id: String
+    galleryImages: [String]
+}
+
+type GalleryItemsList {
+  name: ID
+  value: GalleryItem
+}
+
+type Query {
+  getGalleryById(id: ID): GalleryItem
+    @rest(
+      endpoint: "https://musuemio-clone-default-rtdb.firebaseio.com/galleries/$id.json"
+    )
+
+  getGalleryItems: [GalleryItemsList]
+    @rest(
+      endpoint: "https://musuemio-clone-default-rtdb.firebaseio.com/galleries.json"
+      transforms: [{ pathpattern: [], editor: "objectToArray"}]
+    )
+}

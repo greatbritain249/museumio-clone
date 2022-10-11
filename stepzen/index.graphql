@@ -1,0 +1,9 @@
+schema
+  @sdl(
+    files: [
+      "museum/index.graphql"
+      "gallery/index.graphql"
+    ]
+  ) {
+  query: Query
+}
